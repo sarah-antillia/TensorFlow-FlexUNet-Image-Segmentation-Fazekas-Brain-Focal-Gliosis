@@ -19,7 +19,6 @@ which was derived by us from the Kaggle <br><br>
 <b>Brain MRI Dataset for focal gliosis detection with a report from the doctor</b>
 <br> by Unique Data
 <br>
-<br>
 <hr>
 <b>Acutual Image Segmentation for Fazekas-Brain-Focal-Gliosis Images of 512x512 pixels</b><br>
 As shown below, the inferred masks predicted by our segmentation model  appear similar to the 
@@ -91,9 +90,7 @@ and studying the relationship between imaging features and clinical outcomes.
 Attribution-NonCommercial-NoDerivatives 4.0 International</a>
 <br><br>
 <h3>
-<a id="2">
-2 Fazekas-Brain-Focal-Gliosis ImageMask Dataset
-</a>
+2. Fazekas-Brain-Focal-Gliosis ImageMask Dataset
 </h3>
 <h4>2.1 ImageMask Dataset</h4>
  If you would like to train this Fazekas-Brain-Focal-Gliosis Segmentation mode,
@@ -177,7 +174,7 @@ Attribution-NonCommercial-NoDerivatives 4.0 International</a>).
 <br
 <br>
 <h3>
-3 Train TensorFlowFlexUNet Model
+3. Train TensorFlowFlexUNet Model
 </h3>
  We trained Fazekas-Brain-Focal-Gliosis TensorFlowFlexUNet Model by using the following
 <a href="./projects/TensorFlowFlexUNet/Fazekas/train_eval_infer.config"> <b>train_eval_infer.config</b></a> file. <br>
@@ -291,7 +288,7 @@ In this experiment, the training process was terminated at epoch 70.<br><br>
 
 <br>
 <h3>
-4 Evaluation
+4. Evaluation
 </h3>
 Please move to <b>./projects/TensorFlowFlexUNet/Fazekas</b> folder, 
 and run the following bat file to evaluate TensorFlowFlexUNet model for Fazekas-Brain-Focal-Gliosis.<br>
@@ -317,7 +314,7 @@ dice_coef_hybrid,0.9535
 <br>
 
 <h3>
-5 Inference
+5. Inference
 </h3>
 Please move <b>./projects/TensorFlowFlexUNet/Fazekas</b> folder, and run the following bat file to infer segmentation regions for images by the Trained-TensorFlowFlexUNet model for Fazekas-Brain-Focal-Gliosis.<br>
 <pre>
@@ -342,11 +339,18 @@ This simply runs the following command.
 As shown below, the inferred masks predicted by our segmentation model appear similar to the ground truth masks.<br><br>
 <b>class_color_map={SNFH (Surrounding non-enhancing FLAIR hyperintensity): white } </b>
 <br><br>
+<table>
+<tr>
+<td>
 <img src="./projects/TensorFlowFlexUNet/Fazekas/asset/bottom_segmentation_1.png" width="1024" height="auto">
-<br>
+</td>
+</tr>
+<tr>
+<td>
 <img src="./projects/TensorFlowFlexUNet/Fazekas/asset/bottom_segmentation_2.png" width="1028" height="auto">
-<br>
-
+</td>
+</tr>
+</table>
 <!--
 <table>
 <tr>
