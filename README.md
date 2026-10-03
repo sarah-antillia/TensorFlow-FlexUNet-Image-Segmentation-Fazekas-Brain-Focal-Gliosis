@@ -144,8 +144,7 @@ We generated a 512x512-pixel PNG  master images from all JPG files in each
 <br><br>
 
 <b>Step 2</b><br>
-We generated the pseudo masks  
- corresponding to the master images by applying a segmentation (inference) 
+We generated the pseudo masks corresponding to the master images by applying a segmentation (inference) 
 method of a pretrained FlexUNet model 
 <a href="https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segmentation-BraTS2024-Post-Treatment-Glioma-T2W-Subset">
 TensorFlow-FlexUNet-Image-Segmentation-BraTS2024-Post-Treatment-Glioma-T2W-Subset
