@@ -152,9 +152,8 @@ TensorFlow-FlexUNet-Image-Segmentation-BraTS2024-Post-Treatment-Glioma-T2W-Subse
 <br><br>
 <b>Step 3</b><br>
 We finally generated our own <b>Fazekas-Brain-Focal-Gliosis-Master </b>
-from all pairs of the master images and their corresponding pseudo masks for  
-<b>SNFH (Surrounding non-enhancing FLAIR hyperintensity)</b> class only.
-For more detail, please refer to our Python <a href="./generator/ImageMaskDatasetGenerator.py">ImageMaskDatasetGenerator.py</a>
+from all pairs of the master images and their corresponding pseudo masks for  <b>SNFH (Surrounding non-enhancing FLAIR hyperintensity)</b> class only.
+For more detail, please refer to our Python script <a href="./generator/ImageMaskDatasetGenerator.py">ImageMaskDatasetGenerator.py</a>
 <br><br>
 <b>Note</b><br>
 <b>

@@ -103,7 +103,7 @@ class ImageMaskDatasetGenerator:
       mask     = cv2.imread(mask_file)
       binary_mask  = self.generate_binary_mask(mask)
 
-      # Is the binary_mask is an empty all black?
+      # Is the binary_mask an empty all black?
       if binary_mask.any() > 0:
         filename = str(index) + ".png"
         output_image_filepath = os.path.join(output_images_dir, filename)
